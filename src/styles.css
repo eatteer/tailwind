@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .card {
+    @apply p-4
+    shadow-md;
+  }
+
+  .box {
+    @apply w-32
+    h-16
+    rounded;
+  }
+
+  .title {
+    @apply text-4xl
+    font-extrabold;
+  }
+}
